@@ -1,0 +1,21 @@
+{
+  "name": "parrot-of-the-day",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/events-api": "^3.0.1",
+    "@slack/web-api": "^6.7.2",
+    "dotenv": "^16.0.1",
+    "node-cron": "^3.0.1",
+    "slackbots": "^1.2.0"
+  }
+}
