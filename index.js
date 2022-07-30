@@ -27,4 +27,6 @@ const postParrotOfTheDay = async () => {
   });
 }
 
-cron.schedule('0 12 * * *', postParrotOfTheDay);
+postParrotOfTheDay()
+
+// cron.schedule('0 12 * * *', postParrotOfTheDay);
